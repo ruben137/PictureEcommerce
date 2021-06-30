@@ -1,0 +1,11 @@
+.admin-container {
+  width: 100%;
+  height: calc(100vh - 58.5px - 32px);
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .admin-container {
+    flex-wrap: wrap;
+  }
+}

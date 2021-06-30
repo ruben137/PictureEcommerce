@@ -1,0 +1,6 @@
+.admin-btn:hover {
+  background: #2a2a2a;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

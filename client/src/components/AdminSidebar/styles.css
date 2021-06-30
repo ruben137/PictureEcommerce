@@ -1,0 +1,14 @@
+.sidebar {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #454d55;
+  background: #454d55;
+}
+@media (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: unset;
+    border-right: 1px solid #454d55;
+    background: #454d55;
+  }
+}

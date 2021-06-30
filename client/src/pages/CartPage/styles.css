@@ -1,0 +1,19 @@
+.checkout-container {
+  width: 35%;
+  height: 100px;
+}
+.table-container {
+  width: 65%;
+}
+@media (max-width: 700px) {
+  .cart-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .table-container,
+  .checkout-container {
+    width: 95%;
+    padding: 0;
+    margin: 0;
+  }
+}

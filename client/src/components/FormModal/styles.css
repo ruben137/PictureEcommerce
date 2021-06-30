@@ -1,0 +1,11 @@
+.li-element:hover {
+  background: #212529;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.form-group ::placeholder {
+  color: rgba(200, 200, 200, 0.9);
+}
+.modal-content {
+  background: #343a40;
+}

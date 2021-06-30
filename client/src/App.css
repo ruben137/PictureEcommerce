@@ -1,0 +1,16 @@
+body {
+  background: #191b1b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-header button span {
+  color: rgb(255, 255, 255);
+}
+#title {
+  font-family: "Fredoka One", cursive;
+  color: #f5f6fa;
+}
