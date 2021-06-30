@@ -26,6 +26,23 @@ const Product = ({ item, handleWatchProduct }) => {
         src={item.productImg}
         alt=""
       />
+      <div className="d-flex align-items-center mt-2" style={{justifyContent:'space-between',borderTop:'1px solid #95a5a6'}}>
+      <span className="text-light" style={{fontSize:20}}>
+        <b>
+        {item.productPrice}$
+
+        </b>
+        </span>
+        <span className="text-light" style={{fontSize:20}}>
+          <b>
+          {item.productName}
+
+          </b>
+        </span>
+     
+
+      </div>
+      
       <button
         onClick={handleCart}
         className={

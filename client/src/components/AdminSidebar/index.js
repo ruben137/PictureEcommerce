@@ -6,7 +6,8 @@ import './styles.css'
 
 const AdminSidebar = () => {
   const history=useHistory()
-    const { logout } = useContext(AuthContext);
+  const { logout } = useContext(AuthContext);
+  const user = JSON.parse(localStorage.getItem("profile"));
   const handleLogout = () => {
     logout();
     history.push("/");
@@ -30,7 +31,7 @@ const AdminSidebar = () => {
         <div className="w-100 text-center">
           <img src={userImage} alt="" />
         </div>
-        <h3 className="text-white">Admin Name</h3>
+        <h3 className="text-white">{user?.result?.userName}</h3>
       </div>
       <ul className="text-white">
         <li
