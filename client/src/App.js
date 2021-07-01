@@ -18,7 +18,7 @@ import WithAuth from "./hoc/withAuth";
 import CheckoutPage from "./pages/CheckoutPage";
 import PurchasesPage from "./pages/PurchasesPage";
 import NotFound from "./pages/NotFound";
-import SecretPage from "./pages/SecretPage";
+
 
 function App() {
   return (
@@ -68,15 +68,7 @@ function App() {
                     </WithAuth>
                   )}
                 />
-                <Route
-                  exact
-                  path="/secretpath"
-                  render={() => (
-                    <WithAdminAuth>
-                      <SecretPage />
-                    </WithAdminAuth>
-                  )}
-                />
+                
                 <Route component={NotFound} />
               </Switch>
             </BrowserRouter>
